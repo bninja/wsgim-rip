@@ -17,7 +17,16 @@ based on:
 
 - ``environ["HTTP_X_FORWARDED_FOR"]``
 
-and proxies. Use it like:
+and proxy information.
+
+Install it:
+
+.. code:: bash
+
+   $ pip install wsgim-rip
+   ...
+
+and use it:
 
 .. code:: python
 
